@@ -1,0 +1,8 @@
+# clf.libraries.yml
+
+# Bootstrap Styles
+bootstrap:
+  version: VERSION
+  css:
+    theme:
+      css/bootstrap-grid.css: {}
