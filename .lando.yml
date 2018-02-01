@@ -1,4 +1,4 @@
-name: d-8-rocks
+name: d-8-integrate
 recipe: drupal8
 config:
   webroot: web

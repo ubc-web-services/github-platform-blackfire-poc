@@ -1,7 +1,0 @@
-# Ignore system files.
-.DS_Store
-
-# Ignore espresso settings and codekit files.
-*.espressostorage
-*.codekit
-*.espproj
