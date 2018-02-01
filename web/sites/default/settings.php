@@ -41,15 +41,3 @@ if (file_exists($app_root . '/' . $site_path . '/settings.platformsh.php')) {
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
-$databases['default']['default'] = array (
-  'database' => 'drupal8',
-  'username' => 'drupal8',
-  'password' => 'drupal8',
-  'prefix' => '',
-  'host' => 'database',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
-$settings['hash_salt'] = 'hNmpAK7GckEjqAic7fdJjoe-ZFZZHq7rvHnChX5dHvof8OJIooGZ2wN4ibxnCis6oMUWtAnkdw';
-$settings['install_profile'] = 'standard';
